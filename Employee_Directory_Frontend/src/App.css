@@ -1,0 +1,10 @@
+#root {
+  background-image: url('./images/bgImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #ffffff;
+}
