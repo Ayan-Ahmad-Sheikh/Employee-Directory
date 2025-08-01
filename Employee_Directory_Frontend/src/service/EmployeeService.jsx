@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Employee_API_URL = "http://localhost:8080/employees";
+const Employee_API_URL = process.env.BackEndUrl;
 
 class EmployeeService {
     saveEmployee(employee) {
