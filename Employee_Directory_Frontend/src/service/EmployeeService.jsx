@@ -16,11 +16,11 @@ class EmployeeService {
     }
 
     deleteEmployeeById(id) {
-        return axios.delete(Employee_API_URL + "/" + id);
+        return axios.delete(Employee_API_URL + "/employees" + id);
     }
 
     updateEmployee(employee, id) {
-        return axios.put(Employee_API_URL + "/" + id, employee);
+        return axios.put(Employee_API_URL + "/employees" + id, employee);
     }
 }
 
