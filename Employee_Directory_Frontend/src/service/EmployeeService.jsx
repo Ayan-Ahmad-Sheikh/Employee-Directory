@@ -8,7 +8,7 @@ class EmployeeService {
     }
 
     getAllEmployees() {
-        return axios.get(Employee_API_URL);
+        return axios.get(Employee_API_URL + "/employees");
     }
 
     getEmployeeById(id) {
