@@ -61,7 +61,7 @@ function ListEmployee() {
                     </thead>
                     {!loading && (
                         <tbody>
-                            {employees.map((employee) => (
+                            {employees && employees.length > 0 && employees.map((employee) => (
                                 <tr key={employee.id} className="bg-white text-black hover:bg-blue-200">
                                     <td className="text-left px-6 py-4 whitespace-nowrap">{employee.id}</td>
                                     <td className="text-left px-6 py-4 whitespace-nowrap max-w-[200px] truncate">{employee.name}</td>

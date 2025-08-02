@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Employee_API_URL = process.env.BackEndUrl;
+const Employee_API_URL = process.env.VITE_BackEndUrl;
 
 class EmployeeService {
     saveEmployee(employee) {
