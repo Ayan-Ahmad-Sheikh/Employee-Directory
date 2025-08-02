@@ -4,7 +4,7 @@ const Employee_API_URL = import.meta.env.VITE_BackEndUrl;
 
 class EmployeeService {
     saveEmployee(employee) {
-        return axios.post(Employee_API_URL, employee);
+        return axios.post(Employee_API_URL + "/employees", employee);
     }
 
     getAllEmployees() {
