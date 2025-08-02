@@ -12,7 +12,7 @@ class EmployeeService {
     }
 
     getEmployeeById(id) {
-        return axios.get(Employee_API_URL + "/" + id);
+        return axios.get(Employee_API_URL + "/employees" + id);
     }
 
     deleteEmployeeById(id) {
