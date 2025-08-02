@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Allow all endpoints
-                        .allowedOrigins("http://localhost:5173") // Allow your React frontend
+                        .allowedOrigins("https://employee-directory-rho-silk.vercel.app/") // Allow your React frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // HTTP methods
                         .allowedHeaders("*") // All headers allowed
                         .allowCredentials(true); // If cookies/token used
